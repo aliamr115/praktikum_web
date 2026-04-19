@@ -1,0 +1,42 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+p{
+    text-align: justify;
+}
+
+#box{
+    width: 1000px;
+    height: auto;
+    margin:auto;
+    border: 1px  solid #ccc;
+}
+
+#header{
+    background-color: #8a8eb4;
+    padding: 20px;
+    color: #ffff;
+    font-weight: bold;
+}
+
+#menubar{
+    background-color: #ffffff;
+    margin:auto;
+}
+
+#teksmenu{
+    text-decoration: none;
+}
+
+#konten{
+    padding: 20px;
+}
+
+#footer{
+    background-color: #89868a;
+    padding: 20px;
+    text-align: center;
+}
