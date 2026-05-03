@@ -2,8 +2,24 @@
 <html>
   <head>
     <title>Image & Table</title>
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div id="box"></div>
+    <div id="header" align="left">
+      <nav class="header">
+        <div class="logo">ALIA MASRUKHATUR RIZKIYAH</div>
+        <ul class="nav-links">
+          <a href="home.html" class="teksmenu">Home</a>
+          |
+          <a href="prak1_alia.html" class="teksmenu">Profile</a>
+          |
+          <a href="portofolio.html" class="teksmenu">Portofolio</a>
+        </ul>
+      </nav>
+    </div>
+
     <style>
       table {
         border-collapse: collapse;
@@ -11,12 +27,12 @@
       }
 
       td {
-        border: 2px solid black; /*ketebalan garis tabel*/
-        padding: 25px; /*mangatur ukuran table*/
+        border: 2px solid black;
+        padding: 25px;
       }
 
       h3 {
-        margin-top: 30px; /* jarak judul ke tabel atasnya */
+        margin-top: 30px;
       }
     </style>
     <h3>Daftar Barang</h3>
@@ -137,24 +153,26 @@
     </table>
 
     <!---TABEL5--->
-    <table border="2">
+    <table border="1" cellpadding="30">
       <caption>
-        Tabel Lima
+        Tabel Kelima
       </caption>
       <tr>
-        <td rowspan="2">TABEL5</td>
-        <td rowspan="3">TABEL5</td>
-        <td>TABEL5</td>
+        <th rowspan="2" style="width: 20%">TABEL5</th>
+        <th rowspan="3" style="width: 20%">TABEL5</th>
+        <th style="width: 20%">TABEL5</th>
       </tr>
-
-      <tr>
-        <td>TABEL5</td>
+      <tr style="height: 150px">
         <td rowspan="2">TABEL5</td>
       </tr>
-      <tr>
-        <td>TABEL5</td>
+      <tr style="height: 20px">
         <td>TABEL5</td>
       </tr>
     </table>
+
+    <!--FOOTER-->
+    <div id="footer" align="center">
+      Created by <a href="">aliacantik</a>. |&copy; 2026
+    </div>
   </body>
 </html>

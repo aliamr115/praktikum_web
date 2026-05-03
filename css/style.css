@@ -1,7 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
-    font-family: "Poppins";
+    font-family: "Poppins", Arial, sans-serif;
 }
 
 p{
@@ -12,19 +12,23 @@ p{
     width: 1000px;
     height: auto;
     margin:auto;
-    border: 1px  solid #ccc;
 }
 
 #header{
-    background-color: #8a8eb4;
-    padding: 20px;
-    color: #ffff;
+    background-color: #dfd5d5; /* digabbung ke header */
+    padding: 5px;
+    color: #000000;
     font-weight: bold;
+    height: 120px;
 }
 
 #menubar{
-    background-color: #ffffff;
+    background-color: #e4e4e4;
     margin:auto;
+    color: rgb(255, 255, 255);
+}
+#menu a:hover{
+    color: #fffefe;
 }
 
 #teksmenu{
@@ -33,10 +37,100 @@ p{
 
 #konten{
     padding: 20px;
+    height: 320px;
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgb(225, 225, 225);
+    border: 2px solid #333;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 120%;
 }
 
 #footer{
-    background-color: #89868a;
+    background-color: #999494;
+    font-weight: bold;
     padding: 20px;
     text-align: center;
+    margin: auto;
+
 }
+
+
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:50px;
+    padding:20px;
+}
+
+.card{
+    width: 400px;
+    background-color: rgb(225, 225, 225);
+    border: 2px solid #333;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #000000;
+    font-family: Arial;
+}
+.card a, .list-item a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.list-item a:hover{
+    background-color:#bdb3b3 ;
+}
+
+
+
+.box-css{
+     background-color: lightblue;
+     width: 200px;
+     height: 100px;
+     border: 2px solid black;
+     margin: 10px;
+     padding: 10px;
+     margin-bottom: 50px;
+
+     border-color: black;
+     border-style: solid;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url("img/alia.jpeg");
+}
+
+
+#box-positioning{
+    background:  green;
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    left: 300px;
+    position: relative;
+}
+
+#box2-positioning{
+  height: 50px;
+  width: 50px;
+    background-color: yellow;
+}
+.header {
+    display: flex;               /* Membuat isi navbar jadi sebaris */
+    justify-content: space-between; /* Nama di kiri, menu di kanan otomatis */
+    align-items: center;         /* Biar teksnya rata tengah secara vertikal */
+    padding: 15px 5%;            /* Memberi ruang napas di kiri dan kanan */
+    background-color: #dfd5d5;   /* Warna background */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Efek bayangan halus */
+    gap: 30px;                   /* Memberi jarak antar menu */
+}
+
+
+
+
